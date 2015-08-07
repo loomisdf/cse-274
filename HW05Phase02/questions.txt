@@ -1,0 +1,31 @@
+1. The Dictionary.h file contains the line "template <class  Key, class
+Value>" because it is template class. A template class allows for multiple
+types of inputs instead of predefined ones. The "= 0" declares a pure virtual
+function that must be implemented by any subclass. The parent function is
+abstract and new objects of that class cannot be created when the constructor
+is defined that way.
+
+2. Root is declared in that manor because BSTNode is a template class and
+template classes need to know the parameters when creating new objects. The
+#include statement is added to the end of the file because it contains the
+implementation of the template class. Template classes can not be implemented
+in .cpp files, and therefore the .ipp is included at the end of the file with
+an extension other than .cpp. It is pretty much just copied and pasted to the
+end of the file.
+
+Unlike a Binary tree that may have only one key and two children per parent
+node, a B-tree can have multiple keys and multiple children. A B-tree is
+useful because accessing data is logarithmic. The worst case height of a
+B-tree is O(logn). A binary tree's primary functions are insert, delete and
+find. A B-tree has these functions as well as a split_child() function that
+splits a node when it has become too full. The split_child function runs in
+constant time. Deleting entries from a B-Tree is more complex, because a lot
+of cases must be taken into consideration. B-Trees are popular for
+implementing databases. B-Trees are more popular than other tree methods
+because it makes accessing data across disks much easier, and therefore large
+databases that are kept on multiple storage devices use B-Trees.
+
+Sources:
+For most of the information I used: www.bluerwhite.org/btree/
+For an interactive visulization of B-trees:
+www.cs.usfca.edu/~galles/visualization/BTree.html

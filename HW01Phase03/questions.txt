@@ -1,0 +1,5 @@
+1. When removing a semicolon from the main function, the compiler throws a syntax error. Visual studio stops the compilation and presents me with an error list. It says that their  is a missing semicolon before an identifier.
+
+2. Adding a semicolon after the PHI declaration in the Fractal.h file creates a pre-compile error. The way PHI is defined is with a preprocessor directive which is checked before compilation. Visual Studio is pointing me to the lines where I called PHI, not the line where it was defined. 
+
+3. Removing the semicolon from the Color class creates a compiler error. The reason visual studio points to a different line is similar to that in question 2. Visual studio is pointing at where Color is called, not where it is defined, probably because the definition is not complete. 

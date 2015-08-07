@@ -1,0 +1,22 @@
+h(key) = 3*key+1
+m = 5
+
+Entries:
+	(2, "first)
+	(9, "second)
+	(7, "third")
+	(12, "fourth")
+
+h(2) = 7 % m = 2
+h(9) = 28 % m = 3
+h(7) = 22 % m = 2
+h(12) = 37 % m = 2
+
+0	
+1	(7, "third")
+2	(2, "first")
+3	(9, "second")
+4
+
+We are over half full and using quadratic probing will result in an infinite loop.
+For an efficient function increase i until m-1, then resize the table and try again. 

@@ -1,0 +1,3 @@
+1. Manually setting the size of an int is a bad idea because different systems represent memory in different sizes. Portability between 64 bit and 32 systems will not be possible. 
+
+2. Digital signing is when data is stored mathematically, and therefore can be verified for authenticity. RSA encrypts data using 3 distinct keys. These keys all have to do with very large prime numbers. Two of the keys are public and are used to encrypt the message, and the final key is kept secret and is used to decrypt the message. Without knowing the secret key, decrypting the message will be time consuming or nearly impossible. 

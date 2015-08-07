@@ -1,0 +1,11 @@
+1. When running my program I found that it took between 11 and 12 riffle shuffles to be considered a fair shuffle.
+
+2. When looking at table2.txt, which means the deck has been riffle shuffled
+only 2 times, we can see that a lot of the cards do not change position nearly
+enough. For this to be considered a fair shuffle the numbers should mostly
+consist of ones and twos, or that the cards are evenly distributed among all
+positions in the deck.
+
+3. You cannot conclude that I am wrong, because ideally the riffle shuffle
+randomly places the cards and possibilty of randomness is a perfectly ordered
+deck. Thec chances of this happening are just very slim.     

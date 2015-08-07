@@ -1,0 +1,33 @@
+virtual means that something can be overridden by subclasses
+
+scope operator
+::
+Class goes before the symbol
+
+Java	       C++
+Constructor -- Constructor
+Field       -- Data member
+Method      -- Member Function
+            -- :: --scope operator
+            -- ~classname Desctructor
+
+class definition split into two files. 
+- Header and source file: .h and .cpp
+
+Inheritance
+- Override constructors and functions
+
+Virtual keyword means that the function or constructor can be overriden
+
+Declare inheritance
+class Penguin : public Bird
+
+Penguin is now a subclass of Bird
+
+C++ allows a variable to be accessed directly by its address
+
+& can be read as the "ADDRESS OF"
+
+Everything created with new goes on the heap, everything else goes on the stack.
+
+

@@ -1,0 +1,11 @@
+1. This is a useful way to test the tail method because it does not rely on
+any other method to operate properly. If you had used the push_back() method
+then testing might produce a false negative where tail() works, but
+push_back() does not.
+
+2. Pop_back() would have been easier to implement with arrays because removing
+the last element in an array is a fairly simple procedure. Resizing the array
+is not required in order to remove the last element. Push_back() would have
+been much harder, because array's cannot be resized. It would have required
+making a new array that can accomodate the size of the old array plus the new
+elements.  
